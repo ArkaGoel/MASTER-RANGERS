@@ -1,4 +1,5 @@
-var canvas = document.getElementById("myCanvas");
+
+var canvas = new fabric.Canvas("myCanvas");
 // Create canvas variable
  block_y=1;
  block_x=1;
@@ -32,7 +33,7 @@ console.log(keyPressed);
 
 	if(keyPressed == '82') // add appropriate keycode
 	{
-        new_image("rr1.jpg")
+        new_image("rr.jpg")
 		console.log("r")
 		// upload red ranger
 	}
